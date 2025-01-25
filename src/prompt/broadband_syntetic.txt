@@ -1,0 +1,41 @@
+Task: Generate a synthetic dataset for a broadband map of a specified country and its neighboring countries. The user will provide the country name (e.g., "Rwanda"), and you will generate broadband data for that country and its neighbors (e.g., Uganda, Tanzania, etc., for Rwanda).
+
+Dataset Specifications
+Each row in the dataset should include the following fields:
+
+Country: The country name (selected country or neighboring country).
+Latitude: Geographical latitude, consistent with the specified country's range.
+Longitude: Geographical longitude, consistent with the specified country's range.
+Connection Type: Type of broadband connection. Valid options:
+FTTH (Fiber to the Home)
+ADSL (Copper-based broadband)
+FTTC (Fiber to the Curb)
+EVDSL (Enhanced VDSL)
+Others (if applicable).
+Download Speed (Mbps): Realistic broadband download speed.
+Upload Speed (Mbps): Realistic broadband upload speed.
+Instructions
+Geographical Accuracy: Ensure latitudes and longitudes are valid and reflect locations within the specified country or its neighbors.
+Connection Types: Reflect real-world distributions:
+Modern connections (e.g., FTTH) in urban areas.
+Legacy connections (e.g., ADSL) in rural regions.
+Speed Distribution: Assign realistic speeds:
+FTTH: Download >100 Mbps, Upload ~50 Mbps.
+ADSL: Download <20 Mbps, Upload <10 Mbps.
+Data Size: Provide at least (MANDATORY) 500 rows with diverse variations in location, connection type, and speed.
+Output Format: CSV with headers.
+Example Input and Output
+Input: Rwanda
+Neighboring Countries: Uganda, Tanzania, Burundi, Democratic Republic of the Congo
+
+Give me only the CSV with more of 500 rows
+
+Example Output (CSV):
+Country,Latitude,Longitude,Connection Type,Download Speed (Mbps),Upload Speed (Mbps)  
+Rwanda,-1.9403,29.8739,FTTH,96,49
+Rwanda,-1.9815,29.7316,FTTH,76,43
+Rwanda,-2.2215,30.758,ADSL,9,4  
+Uganda,1.3733,32.2903,ADSL,10,3  
+Tanzania,-6.7924,39.2083,FTTC,50,20  
+Burundi,-3.3731,29.9189,EVDSL,30,10  
+Democratic Republic of the Congo,-4.4419,15.2663,ADSL,8,2
