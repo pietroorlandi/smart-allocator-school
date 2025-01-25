@@ -1,0 +1,5 @@
+{
+    "dataset_broadband_path": "",
+    "dataset_cellular_line_path": "data/rwanda_cellular_line.csv",
+    "dataset_starlink_path": "data/starlink_africa_state.json"
+}
