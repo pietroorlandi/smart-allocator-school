@@ -33,5 +33,5 @@ class ResourceAllocator:
 #         {'id': 4, 'pop_density': 180, 'isolation': 0.4, 'costs': [650, 100], 'reason': ["", "because il cellular"]},
 #     ]
 #     res_all = ResourceAllocator(schools_data=schools_data)
-#     df = res_all.calculate_best_allocation(1500)
+#     df = res_all.calculate_best_allocation(2000)
 #     print(df)
