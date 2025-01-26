@@ -65,15 +65,15 @@ def write_data_to_csv(data: pd.DataFrame, folder_path: str, filename: str):
     return filepath
 
 
-def run_pipeline(choosen_country: str, budget: float, api_key: str):
+def run_pipeline(chosen_country: str, budget: float, api_key: str):
     """
     Ritorna un Markdown che riassume le decisioni prese dall'allocatore e perché
     """
     folder_path = create_folder_with_timestamp(base_path=base_report_path)
     population_data_path = "data/rwa_pd_2020_1km_UNadj_ASCII_XYZ.csv"
     unconnected_school_extractor = SchoolsExtractor('data\school_geolocations_with-connnectivity.csv')
-    data = unconnected_school_extractor.get_unconnected_schools(choosen_country)
-    save_settings(choosen_country, budget, folder_path, "settings.json")
+    data = unconnected_school_extractor.get_unconnected_schools(chosen_country)
+    save_settings(chosen_country, budget, folder_path, "settings.json")
 
     unconnected_schools = data.head(50)  # sample of original dataset
     technology_extractor_config = read_json('config/technology_extractor_config.json')
@@ -84,8 +84,8 @@ def run_pipeline(choosen_country: str, budget: float, api_key: str):
     system_prompt_estimator_llm = read_file("src\\prompt\\cost_estimator_system.txt")
     llm_estimator_cost = LLMEstimatorCost(system_prompt_estimator_llm, technology_data_path, folder_path, api_key)
     # Salva un JSON con informazione su stima dei costi per implemtazione tecnolgia in una scuola
-    estimation_technlogy_path = llm_estimator_cost.save_response_to_file(choosen_country, model="mistralai/codestral-2501") 
-    data_transformer = DataTransformer(choosen_country, population_data_path, estimation_technlogy_path)
+    estimation_technlogy_path = llm_estimator_cost.save_response_to_file(chosen_country, model="mistralai/codestral-2501") 
+    data_transformer = DataTransformer(chosen_country, population_data_path, estimation_technlogy_path)
     data_for_allocator = data_transformer.transform_data()
     resource_allocator = ResourceAllocator(data_for_allocator)
     results_allocator = resource_allocator.calculate_best_allocation(budget)
@@ -96,6 +96,6 @@ def run_pipeline(choosen_country: str, budget: float, api_key: str):
                                            folder_path=folder_path,
                                            api_key=api_key
                                            )
-    markdown = document_generator.save_response_to_file(choosen_country, budget, model="mistralai/codestral-2501", return_response=True)
+    markdown = document_generator.save_response_to_file(chosen_country, budget, model="mistralai/codestral-2501", return_response=True)
     return markdown
     

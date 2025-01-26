@@ -20,8 +20,8 @@ st.session_state.api_key = st.sidebar.text_input(
 budget = st.number_input(
     "Insert your budget",
     min_value=0.0,
-    value=1000000.0,
-    step=1000.0,
+    value=20000.0,
+    step=500.0,
     format="%.2f"
 )
 
@@ -38,9 +38,10 @@ selected_state = st.selectbox(
 
 # submit button
 if st.button("Submit"):
-    if st.session_state.api_key:
-        optimized_allocation_mk = calls.call_optimizer(selected_state, budget, st.session_state.api_key)
-        st.markdown(optimized_allocation_mk, unsafe_allow_html=True)
-        # Puoi aggiungere qui il codice per elaborare la tua API Key
-    else:
-        st.error("Request Error!")
+    with st.spinner("Wait until the operation is finished... "):
+        if st.session_state.api_key:
+            optimized_allocation_mk = calls.call_optimizer(selected_state, budget, st.session_state.api_key)
+            st.markdown(optimized_allocation_mk, unsafe_allow_html=True)
+            # Puoi aggiungere qui il codice per elaborare la tua API Key
+        else:
+            st.error("Request Error!")

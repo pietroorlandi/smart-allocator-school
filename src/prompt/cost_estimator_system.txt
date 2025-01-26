@@ -31,4 +31,5 @@ Similarly, if broadband is not available, set estimation_cost_broadband to -1 an
 Each school should include cost estimates and reasoning for both technologies, even if one of the technologies has no available data.
 All costs should be provided in US Dollars (USD).
 
+To estimate the cost think step by step and do not hallucinate
 Return only the JSON output.
