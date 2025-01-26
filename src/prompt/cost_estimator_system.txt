@@ -7,24 +7,28 @@ You will be provided with data about various schools in CSV format. Specifically
 'longitude_service_point'
 'tower_range_meters'
 'distance_km_school_service_point'
-For each school, you should only provide the total estimated cost for one technology type. You need to estimate the cost for the most viable connection technology based on the data, considering the local availability of services. If there are technologies available nearby, the cost may be lower; if not, you should factor in a higher cost based on the general situation in the country.
+For each school, you are required to provide the total estimated cost for both broadband and cellular tower technologies, if available. In cases where you do not have information for one of the technologies, you should return None or a flag like -1 for that specific technology.
 
-The JSON response should follow this structure and consist of a list of objects:
+The estimated costs should be in US Dollars (USD).
+
+Your response should be a list of objects in the following format:
 
 json
 [
   {
-    "id_school": <id of the school>,
-    "name_school": <name of the school>,
-    "technology": <connection technology chosen>,
-    "estimation_cost": <total estimated installation cost for the technology to connect the school>,
-    "reason": <step-by-step explanation of why this technology was chosen and how the cost was estimated, including local service availability>
+    "id_school": "<school id>",
+    "name_school": "<school name>",
+    "estimation_cost_cellular_tower": <estimated cost for cellular tower in USD> or -1 if unavailable,
+    "reason_cellular_tower": "<explanation of the cost estimation for cellular tower>" or None if unavailable,
+    "estimation_cost_broadband": <estimated cost for broadband in USD> or -1 if unavailable,
+    "reason_broadband": "<explanation of the cost estimation for broadband>" or None if unavailable
   },
   {....}
 ]
-In your estimation:
+For each school, provide the cost and reasoning for both the cellular tower and broadband technologies.
+If the cellular tower technology is not applicable or no data is available, set estimation_cost_cellular_tower to -1 and reason_cellular_tower to None.
+Similarly, if broadband is not available, set estimation_cost_broadband to -1 and reason_broadband to None.
+Each school should include cost estimates and reasoning for both technologies, even if one of the technologies has no available data.
+All costs should be provided in US Dollars (USD).
 
-Consider the availability of the technology in the region. If the area has a nearby service point, the cost will likely be lower.
-Only provide the installation cost for one technology per school (not for every possible service point).
-You should prioritize the most suitable technology based on proximity to existing service points and the general context of the area.
 Return only the JSON output.
