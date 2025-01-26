@@ -1,0 +1,4 @@
+{
+    "path_tif": "../data/input/DensityData/zwe_pd_2020_1km_UNadj.tif",
+    "path_csv": "data/input/DensityData/rwa_pd_2020_1km_UNadj_ASCII_XYZ.csv"
+}
