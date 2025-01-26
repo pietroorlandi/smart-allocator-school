@@ -15,7 +15,7 @@ def read_file(file_path) -> str:
         return None
     
 
-class LLMEstimatorCost:
+class DocumentGenerator:
     def __init__(self,
                  system_prompt: str,
                  technology_data_path: str,
@@ -23,10 +23,29 @@ class LLMEstimatorCost:
         self.system_prompt = system_prompt
         self.folder_path = folder_path
         self.technology_data_path = technology_data_path
-        self.technology_data = self._get_technology_data()
+        self.allocator_data = self._get_allocator_data()
 
-    def _get_technology_data(self):
-        return pd.read_csv(self.technology_data_path)
+    def _get_allocator_data(self):
+        data = [{'school_id': 1,
+            'technology': 'Broadband',
+            'reason': "The closest cellular tower is 0.2157 km away with a range of 6928 meters. The estimated cost includes installation and maintenance.",
+            'pop_density': 200,
+            'isolation': 0.5,
+            'cost': 600},
+            {'school_id': 4,
+            'technology': 'Cellular',
+            'reason': "The closest cellular tower is 0.3541 km away with a range of 7571 meters. The estimated cost includes installation and maintenance.",
+            'pop_density': 180,
+            'isolation': 0.4,
+            'cost': 100},
+            {'school_id': 2,
+            'technology': 'Broadband',
+            'reason': "The closest broadband service point is 11.5951 km away. The estimated cost includes installation and maintenance for FTTH technology.",
+            'pop_density': 150,
+            'isolation': 0.3,
+            'cost': 700},
+            {'remaining_budget': 100}]
+        return data
 
     def generate_response_llm(self, country: str, model: str = "deepseek/deepseek-r1"):
         load_dotenv()
@@ -45,13 +64,12 @@ class LLMEstimatorCost:
                 },
                 {
                     "role": "user",
-                    "content": f"""These are the data for the selected country: {country}.
-                                    Data:\n {self.technology_data.to_csv()}"""
+                    "content": f"""These are the data obtained from the allocator for the selected country: {country}.
+                                    Data: {self.allocator_data}"""
                 },
             ],
-            response_format={"type": "json_object"},
             timeout=300,
-            max_tokens=10000
+            max_tokens=20000
         )
         message = response.choices[0].message.content
         return message
@@ -59,7 +77,7 @@ class LLMEstimatorCost:
     def save_response_to_file(self, country: str, model: str = "deepseek/deepseek-r1"):
         response_llm = self.generate_response_llm(country, model)
         print(f"Risposta LLM: {response_llm}")
-        file_path = os.path.join(self.folder_path, "estimation_cost.json")
+        file_path = os.path.join(self.folder_path, "output_document.md")
         os.makedirs(os.path.dirname(file_path), exist_ok=True)  # Crea la cartella se non esiste
         with open(file_path, "w") as file:
             file.write(response_llm)
@@ -68,9 +86,9 @@ class LLMEstimatorCost:
 
 if __name__ == '__main__':
     country = 'Rwanda'
-    system_prompt = read_file("src\\prompt\\cost_estimator_system.txt")
+    system_prompt = read_file("src\\prompt\\document_creator.txt")
     folder_path = "report\\2025-01-26_13-34-02"
     technology_data_path = "report\\2025-01-26_14-48-56\\unconnected_schools_technology.csv"
-    syntetic_broadband_dataset = LLMEstimatorCost(system_prompt, technology_data_path, folder_path)
+    document_generator = DocumentGenerator(system_prompt, technology_data_path, folder_path)
     # model="mistralai/codestral-2501"
-    syntetic_broadband_dataset.save_response_to_file(country, model="mistralai/codestral-2501")
+    document_generator.save_response_to_file(country, model="mistralai/codestral-2501")
