@@ -16,7 +16,7 @@ class ResourceAllocator:
             best_cost_idx = min(range(len(school['costs'])), key=school['costs'].__getitem__)
             cost = school['costs'][best_cost_idx]
             if cost <= remaining_budget:
-                connected_schools.append({'school_id': school['id'], 'technology': technologies[best_cost_idx], 'reason': school['reason'][best_cost_idx], 'pop_density': school['pop_density'], 'isolation': school['isolation']})
+                connected_schools.append({'school_id': school['school_id'], 'school_name': school['school_name'], 'technology': technologies[best_cost_idx], 'reason': school['reason'][best_cost_idx], 'cost': cost, 'pop_density': school['pop_density'], 'isolation': school['isolation']})
                 remaining_budget -= cost
 
         connected_schools.append({'remaining_budget': remaining_budget})

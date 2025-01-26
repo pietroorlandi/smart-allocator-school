@@ -19,10 +19,12 @@ class LLMEstimatorCost:
     def __init__(self,
                  system_prompt: str,
                  technology_data_path: str,
-                 folder_path: str):
+                 folder_path: str,
+                 api_key: str):
         self.system_prompt = system_prompt
         self.folder_path = folder_path
         self.technology_data_path = technology_data_path
+        self.api_key = api_key
         self.technology_data = self._get_technology_data()
 
     def _get_technology_data(self):
@@ -30,10 +32,10 @@ class LLMEstimatorCost:
 
     def generate_response_llm(self, country: str, model: str = "deepseek/deepseek-r1"):
         load_dotenv()
-        api_key = os.getenv("API_AI_KEY")
+        # api_key = os.getenv("API_AI_KEY")
         client = OpenAI(
             base_url="https://api.aimlapi.com/v1",
-            api_key=api_key,    
+            api_key=self.api_key,    
         )
         print(f"Sending request to LLM ({model})...")
         response = client.chat.completions.create(
@@ -63,6 +65,7 @@ class LLMEstimatorCost:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)  # Crea la cartella se non esiste
         with open(file_path, "w") as file:
             file.write(response_llm)
+        return file_path
 
 
 

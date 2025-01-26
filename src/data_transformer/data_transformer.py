@@ -20,7 +20,7 @@ class DataTransformer:
         isolation_index_calculator = IsolationIndexCalculator(country='Rwanda')
         isolation_index_calculator.compute_nearby_connected_schools(tolerance=10.0)
         unconnected_schools = isolation_index_calculator.unconnected_schools
-        unconnected_schools = unconnected_schools.head(50)
+        # unconnected_schools = unconnected_schools.head(50)
         estimation_technology_data = read_json(self.estimation_technology_path)
         density_population_extractor = DensityExtractor(self.population_data_path)
         density_population_extractor.load_csv_data()
@@ -48,6 +48,7 @@ class DataTransformer:
                 estimated_cost_broadband = estimated_cost["estimation_cost_broadband"] if estimated_cost["estimation_cost_broadband"] != -1 else 500000
                 estimation_cost_cellular_tower = estimated_cost["estimation_cost_cellular_tower"] if estimated_cost["estimation_cost_cellular_tower"] != -1 else 500000
                 data_allocator['school_id'] = id_school
+                data_allocator['school_name'] = estimated_cost['name_school']
                 data_allocator['pop_density'] = population_density
                 data_allocator['isolation'] = isolation_index
                 data_allocator['costs'] = [estimated_cost_broadband, estimation_cost_cellular_tower]
