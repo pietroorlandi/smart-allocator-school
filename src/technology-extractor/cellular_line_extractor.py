@@ -51,6 +51,12 @@ class CellularLineExtractor:
     
 
 if __name__ == '__main__':
+    list_locations = [{'lat': -1.88, 'lon': 29.5},
+                      {'lat': -1.78, 'lon': 31.5},
+                      {'lat': -1.98, 'lon': 28.5},
+                      {'lat': -1.765, 'lon': 27.5},
+                      {'lat': -1.68, 'lon': 31.5}]
     cellular_line_extractor = CellularLineExtractor('data\\rwanda_cellular_line.csv')
-    data = cellular_line_extractor.get_cellular_line_availability(id_school='id_prova', name_school='nome_prova', latitude_school=-1.88, longitude_school=29.558)
-    print(data)
+    for el in list_locations:
+        data = cellular_line_extractor.get_cellular_line_availability(id_school='id_prova', name_school='nome_prova', latitude_school=el['lat'], longitude_school=el['lon'])
+        print(data)
