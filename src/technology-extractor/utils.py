@@ -1,5 +1,6 @@
 import math
 import numpy as np
+import pandas as pd
 
 
 def get_offset_in_degrees(latitude: float, distance_km: float = 1.0) -> tuple[float, float]:
@@ -31,7 +32,7 @@ def haversine(lat1, lon1, lat2, lon2):
         return distance
 
 
-def haversine_vectorized(lat1, lon1, lat2, lon2):
+def haversine_vectorized(lat1: pd.Series, lon1: pd.Series, lat2: float, lon2: float):
     # Converti in radianti
     lat1_rad, lon1_rad = np.radians(lat1), np.radians(lon1)
     lat2_rad, lon2_rad = np.radians(lat2), np.radians(lon2)
