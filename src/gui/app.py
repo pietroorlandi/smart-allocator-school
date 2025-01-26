@@ -1,4 +1,5 @@
 import streamlit as st
+import calls
 
 # application title
 st.title("Resource Allocator Interface")
@@ -38,7 +39,8 @@ selected_state = st.selectbox(
 # submit button
 if st.button("Submit"):
     if st.session_state.api_key:
-        st.success("Request Sumbitted")
+        optimized_allocation_mk = calls.call_optimizer(selected_state, budget, st.session_state.api_key)
+        st.markdown(optimized_allocation_mk, unsafe_allow_html=True)
         # Puoi aggiungere qui il codice per elaborare la tua API Key
     else:
         st.error("Request Error!")
