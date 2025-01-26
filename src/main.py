@@ -64,4 +64,5 @@ if __name__ == '__main__':
     technology_data_path = write_data_to_csv(data, folder_path, filename='unconnected_schools_technology.csv')
     system_prompt_estimator_llm = read_file("src\\prompt\\cost_estimator_system.txt")
     llm_estimator_cost = LLMEstimatorCost(system_prompt_estimator_llm, technology_data_path, folder_path)
-    llm_estimator_cost.save_response_to_file(choosen_country, model="mistralai/codestral-2501")
+    # Salva un JSON con informazione su stima dei costi per implemtazione tecnolgia in una scuola
+    llm_estimator_cost.save_response_to_file(choosen_country, model="mistralai/codestral-2501") 
