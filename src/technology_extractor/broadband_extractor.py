@@ -1,6 +1,6 @@
 import pandas as pd
 
-from utils import get_offset_in_degrees, haversine_vectorized
+from utils.utils import get_offset_in_degrees, haversine_vectorized
 
 
 class BroadbandExtractor:

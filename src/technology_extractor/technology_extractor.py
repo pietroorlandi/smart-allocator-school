@@ -6,11 +6,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 import json 
 import pandas as pd
 
-from starlink_interface import StarlinkInterface
-from cellular_line_extractor import CellularLineExtractor
-from broadband_extractor import BroadbandExtractor
-from unconnected_schools_extractor.unconnected_schools_extractor import UnconnectedSchoolsExtractor
-
+from technology_extractor.starlink_interface import StarlinkInterface
+from technology_extractor.cellular_line_extractor import CellularLineExtractor
+from technology_extractor.broadband_extractor import BroadbandExtractor
+from schools_extractor.schools_extractor import SchoolsExtractor
 
 def read_json(path) -> dict:
     """
@@ -81,7 +80,7 @@ class TechnologyExtractor:
         """
         dataframes = []
         for _, row in self.disconnected_schools.iterrows():
-            data = self.get_technologies_avaiable(id_school='id_prova', # row['id_school'],
+            data = self.get_technologies_avaiable(id_school=row['school_id_giga'],
                                                 name_school=row['school_name'],
                                                 province='prova',
                                                 state='prova',
@@ -94,7 +93,7 @@ class TechnologyExtractor:
 
 
 if __name__ == '__main__':
-    unconnected_school_extractor = UnconnectedSchoolsExtractor('data\school_geolocations_with-connnectivity.csv')
+    unconnected_school_extractor = SchoolsExtractor('data\school_geolocations_with-connnectivity.csv')
     data = unconnected_school_extractor.get_unconnected_schools('Rwanda')
     unconnected_schools = data.copy()  # data.head(250)
     technology_extractor_config = read_json('config/technology_extractor_config.json')
