@@ -7,6 +7,7 @@ import pandas as pd
 
 from technology_extractor.technology_extractor import TechnologyExtractor, read_json
 from schools_extractor.schools_extractor import SchoolsExtractor
+from cost_estimate_technology.technology_estimator import LLMEstimatorCost, read_file
 
 base_report_path = 'report'
 import os
@@ -42,14 +43,15 @@ def save_settings(choosen_country: str, budget: float, folder_path: str, filenam
 def write_data_to_csv(data: pd.DataFrame, folder_path: str, filename: str):
     filepath = os.path.join(folder_path, filename)
     data_rounded = data.applymap(lambda x: round(x, 4) if isinstance(x, float) else x)
-    data_rounded = data_rounded.drop(columns=['id_school'])
+    # data_rounded = data_rounded.drop(columns=['id_school'])
     data_rounded.to_csv(filepath)
+    return filepath
 
 
 if __name__ == '__main__':
     folder_path = create_folder_with_timestamp(base_path=base_report_path)
     choosen_country = 'Rwanda'
-    budget = 30000
+    budget = 300000
     unconnected_school_extractor = SchoolsExtractor('data\school_geolocations_with-connnectivity.csv')
     data = unconnected_school_extractor.get_unconnected_schools(choosen_country)
     save_settings(choosen_country, budget, folder_path, "settings.json")
@@ -59,4 +61,7 @@ if __name__ == '__main__':
     technology_extractor = TechnologyExtractor(technology_extractor_config)
     technology_extractor.initalize_disconnected_schools(unconnected_schools)
     data = technology_extractor.get_df_technologies_avaiable_for_disconnected_schools()
-    write_data_to_csv(data, folder_path, filename='unconnected_schools_technology.csv')
+    technology_data_path = write_data_to_csv(data, folder_path, filename='unconnected_schools_technology.csv')
+    system_prompt_estimator_llm = read_file("src\\prompt\\cost_estimator_system.txt")
+    llm_estimator_cost = LLMEstimatorCost(system_prompt_estimator_llm, technology_data_path, folder_path)
+    llm_estimator_cost.save_response_to_file(choosen_country, model="mistralai/codestral-2501")
