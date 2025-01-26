@@ -27,7 +27,7 @@ class CellularLineExtractor:
         return available_connections
 
 
-    def get_cellular_line_availability(self, id_school: str, name_school: str, latitude_school: float, longitude_school: float, tolerance: float = 10.0):
+    def get_cellular_line_availability(self, id_school: str, name_school: str, latitude_school: float, longitude_school: float, tolerance: float = 10.0, extract_only_top_5: bool = True):
         lat_offset, lon_offset = get_offset_in_degrees(latitude_school, tolerance)
 
         # Definisci i limiti di latitudine e longitudine in base all'offset
@@ -46,6 +46,8 @@ class CellularLineExtractor:
         available_connections = filtered_data[distances <= tolerance]
 
         available_connections = self.parse_dataset_format(available_connections, distances, id_school, name_school, latitude_school, longitude_school)
+        if extract_only_top_5:
+            return available_connections.sort_values('distance_km_school_service_point').head(5)
         return available_connections
 
     

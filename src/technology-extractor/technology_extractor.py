@@ -68,10 +68,12 @@ class TechnologyExtractor:
                                   longitude_school: float,
                                   name_school: str,
                                   id_school: str,
+                                  extract_only_top_5_broaband=True,
+                                  extract_only_top_5_cellular_line=True,
                                   tolerance_broadband=5,
                                   tolerance_cellular_line=15) -> pd.DataFrame:
-        df_broadband = self.broadband_extractor.get_broadband_availability(id_school, name_school, latitude_school, longitude_school, tolerance=tolerance_broadband)
-        df_cellular_line = self.cellular_line_extractor.get_cellular_line_availability(id_school, name_school, latitude_school, longitude_school, tolerance=tolerance_cellular_line)
+        df_broadband = self.broadband_extractor.get_broadband_availability(id_school, name_school, latitude_school, longitude_school, tolerance=tolerance_broadband, extract_only_top_5=extract_only_top_5_broaband)
+        df_cellular_line = self.cellular_line_extractor.get_cellular_line_availability(id_school, name_school, latitude_school, longitude_school, tolerance=tolerance_cellular_line, extract_only_top_5=extract_only_top_5_cellular_line)
         df_combined = pd.concat([df_broadband, df_cellular_line], ignore_index=True)
         return df_combined
 
@@ -93,8 +95,9 @@ class TechnologyExtractor:
                                                                 tolerance_cellular_line=25)
             dataframes.append(data)
         return pd.concat(dataframes, ignore_index=True)
-            
-if __name__ == '__main__':"
+
+
+if __name__ == '__main__':
     technology_extractor_config = read_json('config/technology_extractor_config.json')
     technology_extractor = TechnologyExtractor(technology_extractor_config)
     data = technology_extractor.get_df_technologies_avaiable_for_disconnected_schools()

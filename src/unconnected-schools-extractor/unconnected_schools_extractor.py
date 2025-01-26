@@ -19,3 +19,9 @@ class UnconnectedSchoolsExtractor:
             return self.data[(self.data['country'] == country) & (self.data['connectivity'] == 'No')].reset_index(drop=True)\
                 [output_columns]
         
+# if __name__ == '__main__':
+#     unconnected_school_extractor = UnconnectedSchoolsExtractor('data\school_geolocations_with-connnectivity.csv')
+#     data = unconnected_school_extractor.get_unconnected_schools('Rwanda')
+#     print(data)
+#     mask = data['education_level'] == 'Primary'
+#     print(sum(mask))

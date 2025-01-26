@@ -26,7 +26,7 @@ class BroadbandExtractor:
         available_connections = available_connections[important_columns]
         return available_connections
     
-    def get_broadband_availability(self, id_school: str, name_school: str, latitude_school: float, longitude_school: float, tolerance: float = 3.0) -> pd.DataFrame:
+    def get_broadband_availability(self, id_school: str, name_school: str, latitude_school: float, longitude_school: float, tolerance: float = 3.0, extract_only_top_5: bool = True) -> pd.DataFrame:
         lat_offset, lon_offset = get_offset_in_degrees(latitude_school, tolerance)
 
         # Definisci i limiti di latitudine e longitudine in base all'offset
@@ -49,6 +49,8 @@ class BroadbandExtractor:
         available_connections['longitude_school'] = longitude_school
         available_connections['distance_km_school_broadband'] = distances
         available_connections = self.parse_dataset_format(available_connections, distances, id_school, name_school, latitude_school, longitude_school)
+        if extract_only_top_5:
+            return available_connections.sort_values('distance_km_school_service_point').head(5)
 
         return available_connections
     
