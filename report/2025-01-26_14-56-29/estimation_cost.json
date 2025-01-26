@@ -2,351 +2,401 @@
   {
     "id_school": "37c41673-46d6-3fc0-9986-3c4fc72b79fa",
     "name_school": "EP MUSHUBI",
-    "technology": "ADSL",
-    "estimation_cost": 5000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 11.4096 km. The installation cost is estimated to be $5000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 13500,
+    "reason_cellular_tower": "The closest cellular tower is 0.3541 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 2500,
+    "reason_broadband": "The closest broadband service point is 11.4096 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "3813d74e-22f6-3b0b-81c8-b57ec4b03700",
     "name_school": "EP KARIYERI",
-    "technology": "FTTC",
-    "estimation_cost": 7000,
-    "reason": "Chosen FTTC because it is the most viable option with a nearby service point at a distance of 10.3563 km. The installation cost is estimated to be $7000 based on the proximity and general availability of FTTC in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.2157 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3500,
+    "reason_broadband": "The closest broadband service point is 9.7619 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "390c167f-5271-393c-8fce-a21633b77126",
     "name_school": "EP MATABA SUD",
-    "technology": "FTTH",
-    "estimation_cost": 9000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 11.5951 km. The installation cost is estimated to be $9000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 3500,
+    "reason_cellular_tower": "The closest cellular tower is 6.3805 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 11.5951 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "3a3a9305-317f-3343-8f97-abf5ba2743d1",
     "name_school": "MWEYA",
-    "technology": "FTTH",
-    "estimation_cost": 10000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 5.1898 km. The installation cost is estimated to be $10,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 5.4785 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 5.1898 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "3a98b154-5ca7-30c3-81f8-55323bc4513c",
     "name_school": "ECD KIBIRIZI",
-    "technology": "EVDSL",
-    "estimation_cost": 6000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 5.8027 km. The installation cost is estimated to be $6000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 3.2424 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 5.8027 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "3aea9f2f-d75d-309f-ae1c-2ab123e091d6",
     "name_school": "EP NYARUNAZI",
-    "technology": "EVDSL",
-    "estimation_cost": 7000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 7.7952 km. The installation cost is estimated to be $7000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 4.0745 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 7.7952 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "3b1ac2e4-7d5c-37b0-bb03-528cf8a6daec",
     "name_school": "BUSHENYI PS",
-    "technology": "EVDSL",
-    "estimation_cost": 8000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 4.7246 km. The installation cost is estimated to be $8000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 3.3509 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 4.7246 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "3b79cdf9-11aa-323f-bb39-96d87af0a43c",
     "name_school": "EP KAMOMBO",
-    "technology": "FTTH",
-    "estimation_cost": 11000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 4.5755 km. The installation cost is estimated to be $11,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 8.0636 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 4.5755 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "3c3db764-3cdc-388f-9242-95a45b6ffab4",
     "name_school": "EP MUGOMBWA",
-    "technology": "EVDSL",
-    "estimation_cost": 9000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 5.9777 km. The installation cost is estimated to be $9000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 14.5717 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 5.9777 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "3c42db67-d0c1-3836-8050-fb43fa326b1d",
     "name_school": "E.P KIMINA",
-    "technology": "EVDSL",
-    "estimation_cost": 10000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 6.5363 km. The installation cost is estimated to be $10,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 3.4656 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 6.5363 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "3ca08bd8-a9c6-3e58-9cfc-02b34f33595c",
     "name_school": "GS KANOMBE LL",
-    "technology": "FTTH",
-    "estimation_cost": 12000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 11.8407 km. The installation cost is estimated to be $12,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 4096,
+    "reason_cellular_tower": "The closest cellular tower is 7.5205 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 11.8407 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "3cb53b73-b3ec-33f2-ba15-f176a16479f3",
     "name_school": "GS NYABUBARE",
-    "technology": "cellular_tower",
-    "estimation_cost": 15000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 11.1514 km. The installation cost is estimated to be $15,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1046,
+    "reason_cellular_tower": "The closest cellular tower is 11.1514 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "3cc8a03c-fc24-376f-9500-3285c072ea70",
     "name_school": "EP GITARAMUKA",
-    "technology": "FTTH",
-    "estimation_cost": 13000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 10.3034 km. The installation cost is estimated to be $13,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.4234 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 7.2085 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "3e40d1b0-e6c1-3b6d-926b-27387114e6a4",
     "name_school": "E.P KARIYERI",
-    "technology": "cellular_tower",
-    "estimation_cost": 14000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 0.3218 km. The installation cost is estimated to be $14,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.3218 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "3e45a17d-8549-3c74-99fc-b65b85984316",
     "name_school": "EP MWANZA",
-    "technology": "cellular_tower",
-    "estimation_cost": 15000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 9.4736 km. The installation cost is estimated to be $15,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 9.4736 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "3f43655c-fe96-3da2-9ae4-d3a85baf4cae",
     "name_school": "EP KABUBA",
-    "technology": "ADSL",
-    "estimation_cost": 8000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 7.7229 km. The installation cost is estimated to be $8000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 17.3367 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 7.7229 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "3f65c4df-07dd-3f3c-b8ae-a66d5374b632",
     "name_school": "EP BUMBOGO",
-    "technology": "FTTH",
-    "estimation_cost": 10000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 8.7521 km. The installation cost is estimated to be $10,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 6.2067 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 8.7521 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "40b39619-7817-32d9-b914-41ad1c4a5eaf",
     "name_school": "EP KIBIMBA",
-    "technology": "EVDSL",
-    "estimation_cost": 7000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 5.3924 km. The installation cost is estimated to be $7000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 11.8121 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 5.3924 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "41349bab-3681-342b-8e17-3e85c366b947",
     "name_school": "EP INGANJI",
-    "technology": "EVDSL",
-    "estimation_cost": 8000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 11.2525 km. The installation cost is estimated to be $8000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 12.4883 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 11.2525 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "42440bb3-5965-36a1-b3b8-6b80e1517779",
     "name_school": "EP NYAGAHINGA",
-    "technology": "EVDSL",
-    "estimation_cost": 9000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 10.6889 km. The installation cost is estimated to be $9000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 1.0517 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 10.6889 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "429a5b51-5839-39af-84e0-f09039f2b0aa",
     "name_school": "EP KARAMA",
-    "technology": "EVDSL",
-    "estimation_cost": 10000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 12.4595 km. The installation cost is estimated to be $10,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.833 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 12.4595 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "43c6b52d-bb0c-36e0-a1ad-cb052d685c7d",
     "name_school": "GIHORORO PS",
-    "technology": "FTTH",
-    "estimation_cost": 11000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 2.0391 km. The installation cost is estimated to be $11,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 5.9498 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 2.0391 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "44e03612-0962-3a75-acac-e8e788738384",
     "name_school": "EP  BIRIMA",
-    "technology": "ADSL",
-    "estimation_cost": 12000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 13.0813 km. The installation cost is estimated to be $12,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.8977 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 13.0813 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "45c3bba9-0466-3613-9bf4-80079bbedb03",
     "name_school": "EP RUSAGARA",
-    "technology": "EVDSL",
-    "estimation_cost": 13000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 6.8728 km. The installation cost is estimated to be $13,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 1.0067 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 6.8728 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "469e4984-a018-37b3-8802-b0d41e1ca57f",
     "name_school": "GS NYABIKIRI-NGARAMA",
-    "technology": "ADSL",
-    "estimation_cost": 14000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 13.3166 km. The installation cost is estimated to be $14,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.7806 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 13.3166 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "46a5ccaa-7b5d-3c7a-b61c-a219b374e6b2",
     "name_school": "EP MAGUMIRA",
-    "technology": "EVDSL",
-    "estimation_cost": 15000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 1.644 km. The installation cost is estimated to be $15,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 1.3814 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 1.644 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "46b44a6c-2fd2-379b-bab2-f90ca965cf50",
     "name_school": "EP NYAMUGARI",
-    "technology": "FTTH",
-    "estimation_cost": 16000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 1.8462 km. The installation cost is estimated to be $16,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 18.7279 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 1.8462 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "46b806c7-9736-3b83-aa4a-ddcf5f3ef35c",
     "name_school": "E P MURAMBI",
-    "technology": "FTTC",
-    "estimation_cost": 17000,
-    "reason": "Chosen FTTC because it is the most viable option with a nearby service point at a distance of 3.83 km. The installation cost is estimated to be $17,000 based on the proximity and general availability of FTTC in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 5.1841 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 3.83 km away. The cost is estimated based on the distance and typical FTTC installation costs."
   },
   {
     "id_school": "46fd3ec2-2121-3cbf-9249-719cf5a5bfb0",
     "name_school": "EP NKAMBA",
-    "technology": "cellular_tower",
-    "estimation_cost": 18000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 2.6142 km. The installation cost is estimated to be $18,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 2.6142 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "481771d6-97f6-39d3-90c8-6635152cb702",
     "name_school": "EP GURIRO",
-    "technology": "ADSL",
-    "estimation_cost": 19000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 10.4444 km. The installation cost is estimated to be $19,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 14.2966 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 10.4444 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "48624ace-e98d-3256-940d-f187b4643421",
     "name_school": "EP INDATWA",
-    "technology": "EVDSL",
-    "estimation_cost": 20000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 4.1131 km. The installation cost is estimated to be $20,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 12.5266 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 4.1131 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "4a257e38-5c53-3c0f-bebc-6d8442aba297",
     "name_school": "G.S KARAMBI",
-    "technology": "FTTH",
-    "estimation_cost": 21000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 12.9996 km. The installation cost is estimated to be $21,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.2918 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 12.9996 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "4adccd9d-3b8a-395d-9d7f-d048d530d051",
     "name_school": "GS RWAHI",
-    "technology": "cellular_tower",
-    "estimation_cost": 22000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 3.6092 km. The installation cost is estimated to be $22,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 3.6092 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "4bb1d523-3b5e-3c2e-996b-7c567fce3f50",
     "name_school": "KAMISEKE PS",
-    "technology": "ADSL",
-    "estimation_cost": 23000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 0.6041 km. The installation cost is estimated to be $23,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 13.4409 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 0.6041 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "4be32ab8-ce9f-3f32-8cbf-7b2500f7298d",
     "name_school": "GS GITARAGA",
-    "technology": "EVDSL",
-    "estimation_cost": 24000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 14.8048 km. The installation cost is estimated to be $24,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 3.2685 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 14.8048 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "4cc68004-c01d-3bde-907d-7283b57ecfcb",
     "name_school": "EP KANZA",
-    "technology": "ADSL",
-    "estimation_cost": 25000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 10.8927 km. The installation cost is estimated to be $25,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 2.6324 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 10.8927 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "4d85a0b7-c5a7-35da-b021-b8bc0f374a43",
     "name_school": "EP RUBONA",
-    "technology": "cellular_tower",
-    "estimation_cost": 26000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 14.2714 km. The installation cost is estimated to be $26,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 14.2714 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "4dd36197-5164-3f67-85b1-65bd53080c3b",
     "name_school": "EP GITEGA",
-    "technology": "ADSL",
-    "estimation_cost": 27000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 11.3637 km. The installation cost is estimated to be $27,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 21.6134 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 11.3637 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "4f17f07f-dd7b-3838-a10f-ca70384119f2",
     "name_school": "EP KAMARASHAVU",
-    "technology": "EVDSL",
-    "estimation_cost": 28000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 8.3745 km. The installation cost is estimated to be $28,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 10.7451 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 8.3745 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "4f3199f5-c484-3323-a1a8-39663e9777a4",
     "name_school": "EP RUSAMBU",
-    "technology": "FTTC",
-    "estimation_cost": 29000,
-    "reason": "Chosen FTTC because it is the most viable option with a nearby service point at a distance of 8.8854 km. The installation cost is estimated to be $29,000 based on the proximity and general availability of FTTC in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 1.5703 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 8.8854 km away. The cost is estimated based on the distance and typical FTTC installation costs."
   },
   {
     "id_school": "4f87a687-761a-3d7a-ba3d-6db0f15c7e88",
     "name_school": "EP GITAMBI B",
-    "technology": "EVDSL",
-    "estimation_cost": 30000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 6.4106 km. The installation cost is estimated to be $30,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.5782 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 6.4106 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "5064134d-25c6-3b8e-9294-06649e336b03",
     "name_school": "GS RUBONA",
-    "technology": "ADSL",
-    "estimation_cost": 31000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 8.8952 km. The installation cost is estimated to be $31,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 11.4941 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 8.8952 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "52fc7537-cfa0-3be0-bb44-dcba9d3ca0f2",
     "name_school": "E.P KAGEYO",
-    "technology": "EVDSL",
-    "estimation_cost": 32000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 11.8905 km. The installation cost is estimated to be $32,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 10.1721 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 11.8905 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "5385c580-bdb2-3880-b6b6-46e9f1ec6535",
     "name_school": "EP KAGUGO",
-    "technology": "cellular_tower",
-    "estimation_cost": 33000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 1.191 km. The installation cost is estimated to be $33,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 1.191 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "53de11c2-5c32-3d2a-b2a8-64abbd309178",
     "name_school": "EP BITARE",
-    "technology": "FTTH",
-    "estimation_cost": 34000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 5.4935 km. The installation cost is estimated to be $34,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.3557 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 5.4935 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   },
   {
     "id_school": "545465bc-f466-3677-af17-bde56d1c6805",
     "name_school": "ECD MBUGANGARI",
-    "technology": "cellular_tower",
-    "estimation_cost": 35000,
-    "reason": "Chosen cellular_tower because it is the most viable option with a nearby service point at a distance of 0.3198 km. The installation cost is estimated to be $35,000 based on the proximity and general availability of cellular_tower in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 0.3198 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband data available for this school."
   },
   {
     "id_school": "54ef0c89-0ad8-3c97-ae38-dd7687ae06e8",
     "name_school": "EP KAYENZI",
-    "technology": "EVDSL",
-    "estimation_cost": 36000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 12.7409 km. The installation cost is estimated to be $36,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 5.4631 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 12.7409 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "5699f5f7-fffd-3167-9d4c-c62ecd77d1b0",
     "name_school": "EP NYARUNAZI",
-    "technology": "EVDSL",
-    "estimation_cost": 37000,
-    "reason": "Chosen EVDSL because it is the most viable option with a nearby service point at a distance of 6.9681 km. The installation cost is estimated to be $37,000 based on the proximity and general availability of EVDSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 1.7661 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 6.9681 km away. The cost is estimated based on the distance and typical EVDSL installation costs."
   },
   {
     "id_school": "57b9f958-e1ef-3df6-a3cf-99283b4e9035",
     "name_school": "EP  CYAHAFI",
-    "technology": "ADSL",
-    "estimation_cost": 38000,
-    "reason": "Chosen ADSL because it is the most viable option with a nearby service point at a distance of 6.5495 km. The installation cost is estimated to be $38,000 based on the proximity and general availability of ADSL in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 14.7623 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 6.5495 km away. The cost is estimated based on the distance and typical ADSL installation costs."
   },
   {
     "id_school": "57bad349-be99-392f-a614-bf623b3d1f31",
     "name_school": "EP BYENENE",
-    "technology": "FTTH",
-    "estimation_cost": 39000,
-    "reason": "Chosen FTTH because it is the most viable option with a nearby service point at a distance of 9.4202 km. The installation cost is estimated to be $39,000 based on the proximity and general availability of FTTH in Rwanda."
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest cellular tower is 6.4283 km away. The cost is estimated based on the distance and typical tower installation costs.",
+    "estimation_cost_broadband": 3000,
+    "reason_broadband": "The closest broadband service point is 9.4202 km away. The cost is estimated based on the distance and typical FTTH installation costs."
   }
 ]

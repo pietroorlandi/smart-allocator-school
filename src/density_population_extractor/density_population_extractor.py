@@ -1,5 +1,4 @@
 import pandas as pd
-import json
 from haversine import haversine
 
 
