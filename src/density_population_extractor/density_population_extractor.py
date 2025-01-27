@@ -36,7 +36,7 @@ class DensityExtractor():
 
         nearest_point = dataset.iloc[min_index]
 
-        return nearest_point['distance_km']
+        return nearest_point['population_density_km2']
 
 
 # if (__name__ == '__main__'):
