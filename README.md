@@ -37,7 +37,7 @@ This project provides a solution to optimize the allocation of funds for connect
 3. Review the generated output for recommendations.
 
 ## Demo Video
-Check out a quick demo of the project in action:
+Check out a quick demo of the project in action on YouTube:
 
 [![See the demo](https://img.youtube.com/vi/UyJ5z9j-nJE/0.jpg)](https://www.youtube.com/watch?v=UyJ5z9j-nJE&ab_channel=PietroAnonimo)
 
