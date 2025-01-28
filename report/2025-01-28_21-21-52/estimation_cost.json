@@ -1,0 +1,402 @@
+[
+  {
+    "id_school": "37c41673-46d6-3fc0-9986-3c4fc72b79fa",
+    "name_school": "EP MUSHUBI",
+    "estimation_cost_cellular_tower": 24000,
+    "reason_cellular_tower": "The closest tower is 0.3541 km away, requiring a new tower.",
+    "estimation_cost_broadband": 3500,
+    "reason_broadband": "ADSL technology with a distance of 11.4096 km."
+  },
+  {
+    "id_school": "3813d74e-22f6-3b0b-81c8-b57ec4b03700",
+    "name_school": "EP KARIYERI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 0.2157 km away, no new tower required.",
+    "estimation_cost_broadband": 4500,
+    "reason_broadband": "ADSL technology with a distance of 14.677 km."
+  },
+  {
+    "id_school": "390c167f-5271-393c-8fce-a21633b77126",
+    "name_school": "EP MATABA SUD",
+    "estimation_cost_cellular_tower": 1122,
+    "reason_cellular_tower": "The closest tower is 6.3805 km away, no new tower required.",
+    "estimation_cost_broadband": 15000,
+    "reason_broadband": "FTTH technology with a distance of 11.5951 km."
+  },
+  {
+    "id_school": "3a3a9305-317f-3343-8f97-abf5ba2743d1",
+    "name_school": "MWEYA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 5.4785 km away, no new tower required.",
+    "estimation_cost_broadband": 5500,
+    "reason_broadband": "ADSL technology with a distance of 8.6599 km."
+  },
+  {
+    "id_school": "3a98b154-5ca7-30c3-81f8-55323bc4513c",
+    "name_school": "ECD KIBIRIZI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 3.2424 km away, no new tower required.",
+    "estimation_cost_broadband": 7500,
+    "reason_broadband": "EVDSL technology with a distance of 5.8027 km."
+  },
+  {
+    "id_school": "3aea9f2f-d75d-309f-ae1c-2ab123e091d6",
+    "name_school": "EP NYARUNAZI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 4.0745 km away, no new tower required.",
+    "estimation_cost_broadband": 10500,
+    "reason_broadband": "EVDSL technology with a distance of 7.7952 km."
+  },
+  {
+    "id_school": "3b1ac2e4-7d5c-37b0-bb03-528cf8a6daec",
+    "name_school": "BUSHENYI PS",
+    "estimation_cost_cellular_tower": 19304,
+    "reason_cellular_tower": "The closest tower is 3.3509 km away, requiring a new tower.",
+    "estimation_cost_broadband": 8500,
+    "reason_broadband": "ADSL technology with a distance of 6.7823 km."
+  },
+  {
+    "id_school": "3b79cdf9-11aa-323f-bb39-96d87af0a43c",
+    "name_school": "EP KAMOMBO",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 8.0636 km away, no new tower required.",
+    "estimation_cost_broadband": 13500,
+    "reason_broadband": "FTTH technology with a distance of 4.5755 km."
+  },
+  {
+    "id_school": "3c3db764-3cdc-388f-9242-95a45b6ffab4",
+    "name_school": "EP MUGOMBWA",
+    "estimation_cost_cellular_tower": 3047,
+    "reason_cellular_tower": "The closest tower is 14.5717 km away, no new tower required.",
+    "estimation_cost_broadband": 11500,
+    "reason_broadband": "FTTH technology with a distance of 10.7852 km."
+  },
+  {
+    "id_school": "3c42db67-d0c1-3836-8050-fb43fa326b1d",
+    "name_school": "E.P KIMINA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 3.4656 km away, no new tower required.",
+    "estimation_cost_broadband": 14500,
+    "reason_broadband": "FTTH technology with a distance of 10.9684 km."
+  },
+  {
+    "id_school": "3ca08bd8-a9c6-3e58-9cfc-02b34f33595c",
+    "name_school": "GS KANOMBE LL",
+    "estimation_cost_cellular_tower": 4096,
+    "reason_cellular_tower": "The closest tower is 7.5205 km away, no new tower required.",
+    "estimation_cost_broadband": 17000,
+    "reason_broadband": "FTTH technology with a distance of 11.8407 km."
+  },
+  {
+    "id_school": "3cb53b73-b3ec-33f2-ba15-f176a16479f3",
+    "name_school": "GS NYABUBARE",
+    "estimation_cost_cellular_tower": 1046,
+    "reason_cellular_tower": "The closest tower is 11.1514 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "3cc8a03c-fc24-376f-9500-3285c072ea70",
+    "name_school": "EP GITARAMUKA",
+    "estimation_cost_cellular_tower": 5698,
+    "reason_cellular_tower": "The closest tower is 0.4234 km away, no new tower required.",
+    "estimation_cost_broadband": 16000,
+    "reason_broadband": "FTTH technology with a distance of 10.3034 km."
+  },
+  {
+    "id_school": "3e40d1b0-e6c1-3b6d-926b-27387114e6a4",
+    "name_school": "E.P KARIYERI",
+    "estimation_cost_cellular_tower": 3517,
+    "reason_cellular_tower": "The closest tower is 0.3218 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "3e45a17d-8549-3c74-99fc-b65b85984316",
+    "name_school": "EP MWANZA",
+    "estimation_cost_cellular_tower": 3876,
+    "reason_cellular_tower": "The closest tower is 9.4736 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "3f43655c-fe96-3da2-9ae4-d3a85baf4cae",
+    "name_school": "EP KABUBA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 17.3367 km away, no new tower required.",
+    "estimation_cost_broadband": 18500,
+    "reason_broadband": "FTTH technology with a distance of 13.4392 km."
+  },
+  {
+    "id_school": "3f65c4df-07dd-3f3c-b8ae-a66d5374b632",
+    "name_school": "EP BUMBOGO",
+    "estimation_cost_cellular_tower": 9452,
+    "reason_cellular_tower": "The closest tower is 6.2067 km away, no new tower required.",
+    "estimation_cost_broadband": 19000,
+    "reason_broadband": "FTTH technology with a distance of 8.7521 km."
+  },
+  {
+    "id_school": "40b39619-7817-32d9-b914-41ad1c4a5eaf",
+    "name_school": "EP KIBIMBA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 11.8121 km away, no new tower required.",
+    "estimation_cost_broadband": 13500,
+    "reason_broadband": "FTTC technology with a distance of 10.6252 km."
+  },
+  {
+    "id_school": "41349bab-3681-342b-8e17-3e85c366b947",
+    "name_school": "EP INGANJI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 12.4883 km away, no new tower required.",
+    "estimation_cost_broadband": 15500,
+    "reason_broadband": "EVDSL technology with a distance of 11.2525 km."
+  },
+  {
+    "id_school": "42440bb3-5965-36a1-b3b8-6b80e1517779",
+    "name_school": "EP NYAGAHINGA",
+    "estimation_cost_cellular_tower": 14131,
+    "reason_cellular_tower": "The closest tower is 1.0517 km away, no new tower required.",
+    "estimation_cost_broadband": 17500,
+    "reason_broadband": "EVDSL technology with a distance of 10.6889 km."
+  },
+  {
+    "id_school": "429a5b51-5839-39af-84e0-f09039f2b0aa",
+    "name_school": "EP KARAMA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 0.833 km away, no new tower required.",
+    "estimation_cost_broadband": 18500,
+    "reason_broadband": "FTTH technology with a distance of 14.5218 km."
+  },
+  {
+    "id_school": "43c6b52d-bb0c-36e0-a1ad-cb052d685c7d",
+    "name_school": "GIHORORO PS",
+    "estimation_cost_cellular_tower": 8114,
+    "reason_cellular_tower": "The closest tower is 5.9498 km away, no new tower required.",
+    "estimation_cost_broadband": 20000,
+    "reason_broadband": "FTTH technology with a distance of 2.0391 km."
+  },
+  {
+    "id_school": "44e03612-0962-3a75-acac-e8e788738384",
+    "name_school": "EP  BIRIMA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 0.8977 km away, no new tower required.",
+    "estimation_cost_broadband": 19500,
+    "reason_broadband": "FTTC technology with a distance of 13.7462 km."
+  },
+  {
+    "id_school": "45c3bba9-0466-3613-9bf4-80079bbedb03",
+    "name_school": "EP RUSAGARA",
+    "estimation_cost_cellular_tower": 4672,
+    "reason_cellular_tower": "The closest tower is 1.0067 km away, no new tower required.",
+    "estimation_cost_broadband": 21000,
+    "reason_broadband": "FTTH technology with a distance of 11.193 km."
+  },
+  {
+    "id_school": "469e4984-a018-37b3-8802-b0d41e1ca57f",
+    "name_school": "GS NYABIKIRI-NGARAMA",
+    "estimation_cost_cellular_tower": 23693,
+    "reason_cellular_tower": "The closest tower is 0.7806 km away, no new tower required.",
+    "estimation_cost_broadband": 22000,
+    "reason_broadband": "ADSL technology with a distance of 13.3166 km."
+  },
+  {
+    "id_school": "46a5ccaa-7b5d-3c7a-b61c-a219b374e6b2",
+    "name_school": "EP MAGUMIRA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 1.3814 km away, no new tower required.",
+    "estimation_cost_broadband": 23000,
+    "reason_broadband": "EVDSL technology with a distance of 1.644 km."
+  },
+  {
+    "id_school": "46b44a6c-2fd2-379b-bab2-f90ca965cf50",
+    "name_school": "EP NYAMUGARI",
+    "estimation_cost_cellular_tower": 3047,
+    "reason_cellular_tower": "The closest tower is 18.7279 km away, no new tower required.",
+    "estimation_cost_broadband": 24000,
+    "reason_broadband": "FTTH technology with a distance of 1.8462 km."
+  },
+  {
+    "id_school": "46b806c7-9736-3b83-aa4a-ddcf5f3ef35c",
+    "name_school": "E P MURAMBI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 5.1841 km away, no new tower required.",
+    "estimation_cost_broadband": 25000,
+    "reason_broadband": "FTTH technology with a distance of 10.4706 km."
+  },
+  {
+    "id_school": "46fd3ec2-2121-3cbf-9249-719cf5a5bfb0",
+    "name_school": "EP NKAMBA",
+    "estimation_cost_cellular_tower": 12055,
+    "reason_cellular_tower": "The closest tower is 2.6142 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "481771d6-97f6-39d3-90c8-6635152cb702",
+    "name_school": "EP GURIRO",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 14.2966 km away, no new tower required.",
+    "estimation_cost_broadband": 28000,
+    "reason_broadband": "ADSL technology with a distance of 10.4444 km."
+  },
+  {
+    "id_school": "48624ace-e98d-3256-940d-f187b4643421",
+    "name_school": "EP INDATWA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 12.5266 km away, no new tower required.",
+    "estimation_cost_broadband": 29000,
+    "reason_broadband": "EVDSL technology with a distance of 4.1131 km."
+  },
+  {
+    "id_school": "4a257e38-5c53-3c0f-bebc-6d8442aba297",
+    "name_school": "G.S KARAMBI",
+    "estimation_cost_cellular_tower": 2519,
+    "reason_cellular_tower": "The closest tower is 0.2918 km away, no new tower required.",
+    "estimation_cost_broadband": 30000,
+    "reason_broadband": "FTTH technology with a distance of 12.9996 km."
+  },
+  {
+    "id_school": "4adccd9d-3b8a-395d-9d7f-d048d530d051",
+    "name_school": "GS RWAHI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 3.6092 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "4bb1d523-3b5e-3c2e-996b-7c567fce3f50",
+    "name_school": "KAMISEKE PS",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 13.4409 km away, no new tower required.",
+    "estimation_cost_broadband": 33000,
+    "reason_broadband": "ADSL technology with a distance of 0.6041 km."
+  },
+  {
+    "id_school": "4be32ab8-ce9f-3f32-8cbf-7b2500f7298d",
+    "name_school": "GS GITARAGA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 3.2685 km away, no new tower required.",
+    "estimation_cost_broadband": 34000,
+    "reason_broadband": "EVDSL technology with a distance of 14.8048 km."
+  },
+  {
+    "id_school": "4cc68004-c01d-3bde-907d-7283b57ecfcb",
+    "name_school": "EP KANZA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 2.6324 km away, no new tower required.",
+    "estimation_cost_broadband": 35000,
+    "reason_broadband": "ADSL technology with a distance of 10.8927 km."
+  },
+  {
+    "id_school": "4d85a0b7-c5a7-35da-b021-b8bc0f374a43",
+    "name_school": "EP RUBONA",
+    "estimation_cost_cellular_tower": 6694,
+    "reason_cellular_tower": "The closest tower is 14.2714 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "4dd36197-5164-3f67-85b1-65bd53080c3b",
+    "name_school": "EP GITEGA",
+    "estimation_cost_cellular_tower": 12351,
+    "reason_cellular_tower": "The closest tower is 21.6134 km away, no new tower required.",
+    "estimation_cost_broadband": 38000,
+    "reason_broadband": "ADSL technology with a distance of 11.3637 km."
+  },
+  {
+    "id_school": "4f17f07f-dd7b-3838-a10f-ca70384119f2",
+    "name_school": "EP KAMARASHAVU",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 10.7451 km away, no new tower required.",
+    "estimation_cost_broadband": 39000,
+    "reason_broadband": "FTTH technology with a distance of 11.7592 km."
+  },
+  {
+    "id_school": "4f3199f5-c484-3323-a1a8-39663e9777a4",
+    "name_school": "EP RUSAMBU",
+    "estimation_cost_cellular_tower": 5311,
+    "reason_cellular_tower": "The closest tower is 1.5703 km away, no new tower required.",
+    "estimation_cost_broadband": 40000,
+    "reason_broadband": "FTTC technology with a distance of 8.8854 km."
+  },
+  {
+    "id_school": "4f87a687-761a-3d7a-ba3d-6db0f15c7e88",
+    "name_school": "EP GITAMBI B",
+    "estimation_cost_cellular_tower": 7359,
+    "reason_cellular_tower": "The closest tower is 0.5782 km away, no new tower required.",
+    "estimation_cost_broadband": 41000,
+    "reason_broadband": "EVDSL technology with a distance of 6.4106 km."
+  },
+  {
+    "id_school": "5064134d-25c6-3b8e-9294-06649e336b03",
+    "name_school": "GS RUBONA",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 11.4941 km away, no new tower required.",
+    "estimation_cost_broadband": 42000,
+    "reason_broadband": "FTTH technology with a distance of 13.4387 km."
+  },
+  {
+    "id_school": "52fc7537-cfa0-3be0-bb44-dcba9d3ca0f2",
+    "name_school": "E.P KAGEYO",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 10.1721 km away, no new tower required.",
+    "estimation_cost_broadband": 43000,
+    "reason_broadband": "EVDSL technology with a distance of 11.8905 km."
+  },
+  {
+    "id_school": "5385c580-bdb2-3880-b6b6-46e9f1ec6535",
+    "name_school": "EP KAGUGO",
+    "estimation_cost_cellular_tower": 4315,
+    "reason_cellular_tower": "The closest tower is 1.191 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "53de11c2-5c32-3d2a-b2a8-64abbd309178",
+    "name_school": "EP BITARE",
+    "estimation_cost_cellular_tower": 4339,
+    "reason_cellular_tower": "The closest tower is 0.3557 km away, no new tower required.",
+    "estimation_cost_broadband": 46000,
+    "reason_broadband": "FTTH technology with a distance of 5.4935 km."
+  },
+  {
+    "id_school": "545465bc-f466-3677-af17-bde56d1c6805",
+    "name_school": "ECD MBUGANGARI",
+    "estimation_cost_cellular_tower": 5876,
+    "reason_cellular_tower": "The closest tower is 0.3198 km away, no new tower required.",
+    "estimation_cost_broadband": -1,
+    "reason_broadband": "No broadband technology available."
+  },
+  {
+    "id_school": "54ef0c89-0ad8-3c97-ae38-dd7687ae06e8",
+    "name_school": "EP KAYENZI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 5.4631 km away, no new tower required.",
+    "estimation_cost_broadband": 49000,
+    "reason_broadband": "EVDSL technology with a distance of 12.7409 km."
+  },
+  {
+    "id_school": "5699f5f7-fffd-3167-9d4c-c62ecd77d1b0",
+    "name_school": "EP NYARUNAZI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 1.7661 km away, no new tower required.",
+    "estimation_cost_broadband": 50000,
+    "reason_broadband": "FTTH technology with a distance of 12.3666 km."
+  },
+  {
+    "id_school": "57b9f958-e1ef-3df6-a3cf-99283b4e9035",
+    "name_school": "EP  CYAHAFI",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 14.7623 km away, no new tower required.",
+    "estimation_cost_broadband": 51000,
+    "reason_broadband": "ADSL technology with a distance of 6.5495 km."
+  },
+  {
+    "id_school": "57bad349-be99-392f-a614-bf623b3d1f31",
+    "name_school": "EP BYENENE",
+    "estimation_cost_cellular_tower": 1000,
+    "reason_cellular_tower": "The closest tower is 6.4283 km away, no new tower required.",
+    "estimation_cost_broadband": 52000,
+    "reason_broadband": "FTTH technology with a distance of 9.4202 km."
+  }
+]

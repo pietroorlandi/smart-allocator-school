@@ -1,56 +1,53 @@
-# Prompt for Generating a Markdown Document for Connectivity Investments  
+# Resource Allocator for Connecting Unconnected Schools
 
-Create a detailed and easy-to-understand **Markdown document** for a public governor planning investments in technologies to connect schools in remote areas to the internet. The document should simplify decision-making by presenting insights derived from data analysis based on the following criteria:  
+<img src="image/logo.png" alt="Project Logo" width="250" />
 
-1. **Population Density**: Higher density indicates more students and people benefiting from the investment.  
-2. **Isolation Index**: A lower value indicates a school is highly isolated (no other connected schools within a 10 km radius).  
-3. **Technology**: The type of technology recommended for connecting the school.  
-4. **Investment**: The estimated cost of implementing the recommended technology.  
-5. **Reason**: The justification for the proposed cost estimate, explaining why the investment is appropriate given the school's conditions and requirements.  
+## Project Overview
+This project provides a solution to optimize the allocation of funds for connecting unconnected schools, focusing on areas with limited or no internet access. By analyzing input data such as school locations, population density, available technologies, and budget constraints, the system generates actionable recommendations to maximize impact.
 
-## Markdown Document Structure  
-1. **Title**: A clear and informative title.  
-2. **Executive Summary**: A plain-language summary of the key insights and recommendations.  
-3. **Results Table**: A table summarizing the recommendations, including:  
-    - School Name  
-    - Population Density  
-    - Isolation Index  
-    - Recommended Technology  
-    - Estimated Investment  
-    - Reason for the cost estimate  
-4. **Methodology**: A section describing the data analysis process and decision-making criteria.  
-5. **Action Plan**: A prioritized investment plan with clear next steps.  
+## Key Features
+- Prioritizes schools based on geographic and demographic factors.
+- Recommends the most suitable connectivity technology for each school.
+- Ensures efficient resource allocation within budget limits.
+- Outputs a clear, detailed report with actionable insights.
 
-## Formatting Requirements  
-- Use headers (`#`, `##`, `###`) to organize the content.  
-- Present data in tables for easy comparison.  
-- Use bullet points for concise explanations.  
+## Getting Started
+### Prerequisites
+- Python 3.11
+- Required libraries (see `requirements.txt`)
 
-### Example Output  
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/resource-allocator.git
+   cd resource-allocator
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```markdown  
-# Internet Connectivity Investment Plan for Remote Schools  
+### Usage
+1. Prepare input data (schools, budget, and available technologies) in the required format.
+2. Run the system:
+   ```bash
+   streamlit run src/gui/app.py
+   ```
+4. Insert the API key for the LLM in the GUI and run the application
+3. Review the generated output for recommendations.
 
-## Executive Summary  
-This document outlines a strategic plan to connect schools in remote areas to the internet, prioritizing efficiency and impact. The analysis considers population density, isolation index, available technologies, and cost estimates to propose optimal solutions.  
+## Demo Video
+Check out a quick demo of the project in action:
 
-## Key Recommendations  
-| School Name     | Population Density | Isolation Index | Technology  | Investment ($) | Reason                                |  
-|-----------------|--------------------|----------------|-------------|----------------|---------------------------------------|  
-| School A        | High              | Low            | Satellite   | 50,000         | Cost includes installation in a highly remote area. |  
-| School B        | Medium            | High           | Fiber Optic | 120,000        | Reflects groundwork needed for a densely populated area. |  
+![Demo Video](video/hackathon_ai_connectivity.mp4)
 
-## Methodology  
-- **Data Sources**: The analysis uses a dataset assessing population density, isolation index, available technologies, and estimated costs.  
-- **Decision Criteria**:  
-  - High population density prioritized for maximizing impact.  
-  - Low isolation index identified to reduce disparities.  
-  - Recommended technologies chosen based on cost-effectiveness and feasibility.  
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Submit a pull request for review.
 
-## Action Plan  
-1. **Immediate Investments**: Allocate funds to connect School A and School B within the next fiscal quarter.  
-2. **Long-term Strategies**: Establish partnerships with technology providers to ensure sustainability.  
 
-## Next Steps  
-- Finalize contracts with technology vendors.  
-- Plan implementation phases to ensure timely execution.  
+## Acknowledgments
+Thanks to all contributors and stakeholders for their support and feedback.
