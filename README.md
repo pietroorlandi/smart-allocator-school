@@ -19,8 +19,8 @@ This project provides a solution to optimize the allocation of funds for connect
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/resource-allocator.git
-   cd resource-allocator
+   git clone https://github.com/pietroorlandi/smart-allocator-school.git
+   cd smart-allocator-school
    ```
 2. Install dependencies:
    ```bash
