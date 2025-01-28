@@ -39,7 +39,7 @@ This project provides a solution to optimize the allocation of funds for connect
 ## Demo Video
 Check out a quick demo of the project in action:
 
-[![See the demo](https://img.youtube.com/vi/UyJ5z9j-nJE&ab_channel=PietroAnonimo/0.jpg)](https://www.youtube.com/watch?v=UyJ5z9j-nJE&ab_channel=PietroAnonimo)
+[![See the demo](https://img.youtube.com/vi/UyJ5z9j-nJE/0.jpg)](https://www.youtube.com/watch?v=UyJ5z9j-nJE&ab_channel=PietroAnonimo)
 
 
 ## Contributing
